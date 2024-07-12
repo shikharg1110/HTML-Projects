@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Website</title>
+</head>
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+            <br><br>
+
+            <label for="email">Eamil: </label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age">
+            <br><br>
+
+            <label for="gender">Gender: </label><br>
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" required>
+            <label for="other">Other</label><br><br>
+
+            <label for="programming">Which Programming languages do you know ?</label><br>
+
+            <input type="checkbox" name="programming" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="programming" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="programming" id="javascript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" name="programming" id="reactjs">
+            <label for="reactjs">React JS</label>
+            <input type="checkbox" name="programming" id="nodejs">
+            <label for="nodejs">Node JS</label>
+            <input type="checkbox" name="programming" id="expressjs">
+            <label for="expressjs">Express JS</label>
+            <input type="checkbox" name="programming" id="mongodb">
+            <label for="mongodb">Mongo DB</label>
+            <br><br>
+
+            <label for="feedback">Feedback: </label><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea><br><br>
+
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
